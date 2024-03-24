@@ -21,14 +21,17 @@ dependencies:
   stacked_services: ^0.9.8
   #API
   dio: ^4.0.6
+  retrofit: '>=3.0.0 <4.0.0'
    
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
-  build_runner:
-  stacked_generator: ^1.6.0
+  stacked_generator: ^1.5.1
+  retrofit_generator: '^4.0.0'
+  build_runner: '>=2.3.0 <4.0.0'
+  json_serializable: ^6.6.2
 
 flutter:
   uses-material-design: true

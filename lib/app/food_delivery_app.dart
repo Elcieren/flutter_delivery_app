@@ -16,7 +16,7 @@ class FoodDeliveryApp extends StatelessWidget {
     return ViewModelBuilder<AppBaseViewMoedel>.reactive(
         viewModelBuilder: () => getIt<AppBaseViewMoedel>(),
         onModelReady: (viewModel) => viewModel.initialise(),
-        builder: (context, viewModel, child) => MaterialApp(
+        builder: (context, appBaseviewModel, child) => MaterialApp(
               navigatorKey: StackedService.navigatorKey,
               onGenerateRoute: StackedRouter().onGenerateRoute,
               navigatorObservers: [StackedService.routeObserver],

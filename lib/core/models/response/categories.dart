@@ -21,7 +21,7 @@ class Categories {
   factory Categories.fromJson(Map<String, dynamic> map) {
     return Categories(
       categories: List<Categorie>.from(
-        (map['categories'] as List<int>).map<Categorie>(
+        (map['categories'] as List<dynamic>).map<Categorie>(
           (x) => Categorie.fromJson(x as Map<String, dynamic>),
         ),
       ),

@@ -19,6 +19,8 @@ dependencies:
   #SATATE_MANAGMENT
   stacked: ^3.0.1
   stacked_services: ^0.9.8
+  #API
+  dio: ^4.0.6
    
 
 dev_dependencies:

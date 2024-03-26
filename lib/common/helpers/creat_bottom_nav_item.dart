@@ -1,5 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
+import 'package:flutter_delivery_app/ui/category_detail/category_detail_view.dart';
 import 'package:flutter_delivery_app/ui/home/home_view.dart';
 
 BottomNavigationBarItem createNavItem(TabItem tabItem) {
@@ -31,7 +32,7 @@ Widget getViewForIndex(int index) {
     case 0:
       return HomeView();
     case 1:
-      return HomeView();
+      return CategoryDetail();
     case 2:
       return HomeView();
     case 3:

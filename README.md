@@ -1,4 +1,5 @@
 # flutter_delivery_app
+![Ekran Resmi 2024-03-26 04 57 32](https://github.com/Elcieren/flutter_delivery_app/assets/117864036/4e04c2c4-bdbd-4e66-99f8-1c77f38c6f51)
 
 A new Flutter project.
 

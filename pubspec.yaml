@@ -15,6 +15,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   #DI
   get_it: ^7.2.0
+  #UTİLS
+  freezed: ^2.3.0
    
   #SATATE_MANAGMENT
   stacked: ^3.0.1
